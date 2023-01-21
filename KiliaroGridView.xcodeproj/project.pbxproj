@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750CB14729780676000B2AD5 /* HomePageImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CB14629780676000B2AD5 /* HomePageImageCell.swift */; };
+		750CB14B297815B7000B2AD5 /* MediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750CB14A297815B7000B2AD5 /* MediaViewModel.swift */; };
+		750DEA2C297A5FB3006EDC02 /* CasheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750DEA2B297A5FB3006EDC02 /* CasheHelper.swift */; };
+		750DEA2E297A9380006EDC02 /* MediaHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750DEA2D297A9380006EDC02 /* MediaHeader.swift */; };
+		750DEA30297A95F6006EDC02 /* MediaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750DEA2F297A95F6006EDC02 /* MediaDetail.swift */; };
+		7548568429740D7E00829D0C /* KiliaroGridViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548568329740D7E00829D0C /* KiliaroGridViewApp.swift */; };
+		7548568629740D7E00829D0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548568529740D7E00829D0C /* ContentView.swift */; };
+		7548568829740D8000829D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548568729740D8000829D0C /* Assets.xcassets */; };
+		7548568B29740D8000829D0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548568A29740D8000829D0C /* Preview Assets.xcassets */; };
+		754856942974337D00829D0C /* MainHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754856932974337D00829D0C /* MainHeader.swift */; };
+		75708535297ABA5F00C90414 /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75708534297ABA5F00C90414 /* MediaInfo.swift */; };
+		75F4C05029766D92005876D0 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C04F29766D92005876D0 /* MediaModel.swift */; };
+		75F4C053297672C9005876D0 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C052297672C9005876D0 /* HomePageViewModel.swift */; };
+		75F4C05629767771005876D0 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C05529767771005876D0 /* NetworkHelper.swift */; };
+		75F4C05929767866005876D0 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C05829767866005876D0 /* URLs.swift */; };
+		75F4C05B29767C32005876D0 /* ErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C05A29767C32005876D0 /* ErrorList.swift */; };
+		75F4C05D2976BA05005876D0 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F4C05C2976BA05005876D0 /* AlertItem.swift */; };
+		77CE3C283FD0D6241CD6966E /* Pods_KiliaroGridView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF7C4DF82511E3812037D90 /* Pods_KiliaroGridView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		750CB14629780676000B2AD5 /* HomePageImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageImageCell.swift; sourceTree = "<group>"; };
+		750CB14A297815B7000B2AD5 /* MediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewModel.swift; sourceTree = "<group>"; };
+		750DEA2B297A5FB3006EDC02 /* CasheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasheHelper.swift; sourceTree = "<group>"; };
+		750DEA2D297A9380006EDC02 /* MediaHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHeader.swift; sourceTree = "<group>"; };
+		750DEA2F297A95F6006EDC02 /* MediaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetail.swift; sourceTree = "<group>"; };
+		7548568029740D7E00829D0C /* KiliaroGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiliaroGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7548568329740D7E00829D0C /* KiliaroGridViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliaroGridViewApp.swift; sourceTree = "<group>"; };
+		7548568529740D7E00829D0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7548568729740D8000829D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7548568A29740D8000829D0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		754856932974337D00829D0C /* MainHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeader.swift; sourceTree = "<group>"; };
+		75708534297ABA5F00C90414 /* MediaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
+		75F4C04F29766D92005876D0 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		75F4C052297672C9005876D0 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		75F4C05529767771005876D0 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		75F4C05829767866005876D0 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		75F4C05A29767C32005876D0 /* ErrorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorList.swift; sourceTree = "<group>"; };
+		75F4C05C2976BA05005876D0 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		760FC908387749238A939112 /* Pods-KiliaroGridView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiliaroGridView.release.xcconfig"; path = "Target Support Files/Pods-KiliaroGridView/Pods-KiliaroGridView.release.xcconfig"; sourceTree = "<group>"; };
+		CEF7C4DF82511E3812037D90 /* Pods_KiliaroGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiliaroGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F695A887DC9282F60FEAF0E4 /* Pods-KiliaroGridView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiliaroGridView.debug.xcconfig"; path = "Target Support Files/Pods-KiliaroGridView/Pods-KiliaroGridView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7548567D29740D7E00829D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CE3C283FD0D6241CD6966E /* Pods_KiliaroGridView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7548567729740D7E00829D0C = {
+			isa = PBXGroup;
+			children = (
+				7548568229740D7E00829D0C /* KiliaroGridView */,
+				7548568129740D7E00829D0C /* Products */,
+				779A4011FCAFC56C1EA9ACB4 /* Pods */,
+				88D4CE27B2406EE64C03CE1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7548568129740D7E00829D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7548568029740D7E00829D0C /* KiliaroGridView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7548568229740D7E00829D0C /* KiliaroGridView */ = {
+			isa = PBXGroup;
+			children = (
+				75F4C05729767856005876D0 /* Helpers */,
+				75F4C04E29766D7B005876D0 /* Models */,
+				75F4C051297672BA005876D0 /* ViewModels */,
+				754856922974336B00829D0C /* Views */,
+				754856912974336600829D0C /* Scene */,
+				7548568329740D7E00829D0C /* KiliaroGridViewApp.swift */,
+				7548568729740D8000829D0C /* Assets.xcassets */,
+				7548568929740D8000829D0C /* Preview Content */,
+			);
+			path = KiliaroGridView;
+			sourceTree = "<group>";
+		};
+		7548568929740D8000829D0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7548568A29740D8000829D0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		754856912974336600829D0C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				7548568529740D7E00829D0C /* ContentView.swift */,
+				750DEA2F297A95F6006EDC02 /* MediaDetail.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		754856922974336B00829D0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				754856932974337D00829D0C /* MainHeader.swift */,
+				750DEA2D297A9380006EDC02 /* MediaHeader.swift */,
+				750CB14629780676000B2AD5 /* HomePageImageCell.swift */,
+				75708534297ABA5F00C90414 /* MediaInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75F4C04E29766D7B005876D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75F4C04F29766D92005876D0 /* MediaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75F4C051297672BA005876D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75F4C052297672C9005876D0 /* HomePageViewModel.swift */,
+				750CB14A297815B7000B2AD5 /* MediaViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		75F4C05729767856005876D0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				75F4C05829767866005876D0 /* URLs.swift */,
+				75F4C05A29767C32005876D0 /* ErrorList.swift */,
+				75F4C05C2976BA05005876D0 /* AlertItem.swift */,
+				750DEA2B297A5FB3006EDC02 /* CasheHelper.swift */,
+				75F4C05529767771005876D0 /* NetworkHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		779A4011FCAFC56C1EA9ACB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F695A887DC9282F60FEAF0E4 /* Pods-KiliaroGridView.debug.xcconfig */,
+				760FC908387749238A939112 /* Pods-KiliaroGridView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88D4CE27B2406EE64C03CE1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7C4DF82511E3812037D90 /* Pods_KiliaroGridView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7548567F29740D7E00829D0C /* KiliaroGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7548568E29740D8000829D0C /* Build configuration list for PBXNativeTarget "KiliaroGridView" */;
+			buildPhases = (
+				D9F596C42B7F1D3A72F68D2F /* [CP] Check Pods Manifest.lock */,
+				7548567C29740D7E00829D0C /* Sources */,
+				7548567D29740D7E00829D0C /* Frameworks */,
+				7548567E29740D7E00829D0C /* Resources */,
+				D87964ECC7B29A5C88CADA19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiliaroGridView;
+			productName = KiliaroGridView;
+			productReference = 7548568029740D7E00829D0C /* KiliaroGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7548567829740D7E00829D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7548567F29740D7E00829D0C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7548567B29740D7E00829D0C /* Build configuration list for PBXProject "KiliaroGridView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7548567729740D7E00829D0C;
+			productRefGroup = 7548568129740D7E00829D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7548567F29740D7E00829D0C /* KiliaroGridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7548567E29740D7E00829D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7548568B29740D8000829D0C /* Preview Assets.xcassets in Resources */,
+				7548568829740D8000829D0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D87964ECC7B29A5C88CADA19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KiliaroGridView/Pods-KiliaroGridView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KiliaroGridView/Pods-KiliaroGridView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KiliaroGridView/Pods-KiliaroGridView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F596C42B7F1D3A72F68D2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiliaroGridView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7548567C29740D7E00829D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F4C05B29767C32005876D0 /* ErrorList.swift in Sources */,
+				75F4C053297672C9005876D0 /* HomePageViewModel.swift in Sources */,
+				75708535297ABA5F00C90414 /* MediaInfo.swift in Sources */,
+				75F4C05029766D92005876D0 /* MediaModel.swift in Sources */,
+				750DEA30297A95F6006EDC02 /* MediaDetail.swift in Sources */,
+				750CB14729780676000B2AD5 /* HomePageImageCell.swift in Sources */,
+				754856942974337D00829D0C /* MainHeader.swift in Sources */,
+				75F4C05929767866005876D0 /* URLs.swift in Sources */,
+				750DEA2C297A5FB3006EDC02 /* CasheHelper.swift in Sources */,
+				750CB14B297815B7000B2AD5 /* MediaViewModel.swift in Sources */,
+				750DEA2E297A9380006EDC02 /* MediaHeader.swift in Sources */,
+				7548568629740D7E00829D0C /* ContentView.swift in Sources */,
+				7548568429740D7E00829D0C /* KiliaroGridViewApp.swift in Sources */,
+				75F4C05D2976BA05005876D0 /* AlertItem.swift in Sources */,
+				75F4C05629767771005876D0 /* NetworkHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7548568C29740D8000829D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7548568D29740D8000829D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7548568F29740D8000829D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F695A887DC9282F60FEAF0E4 /* Pods-KiliaroGridView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiliaroGridView/Preview Content\"";
+				DEVELOPMENT_TEAM = MB3686TKT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadeghmoghaddasi.KiliaroGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7548569029740D8000829D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760FC908387749238A939112 /* Pods-KiliaroGridView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiliaroGridView/Preview Content\"";
+				DEVELOPMENT_TEAM = MB3686TKT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadeghmoghaddasi.KiliaroGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7548567B29740D7E00829D0C /* Build configuration list for PBXProject "KiliaroGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7548568C29740D8000829D0C /* Debug */,
+				7548568D29740D8000829D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7548568E29740D8000829D0C /* Build configuration list for PBXNativeTarget "KiliaroGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7548568F29740D8000829D0C /* Debug */,
+				7548569029740D8000829D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7548567829740D7E00829D0C /* Project object */;
+}

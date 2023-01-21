@@ -1,0 +1,6 @@
+framework module Pods_KiliaroGridView {
+  umbrella header "Pods-KiliaroGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}
